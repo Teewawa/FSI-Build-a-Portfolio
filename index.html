@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-</head>
-
-<body>
-    <H1>
-        My Portfolio
-    </H1>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <!-- 
       Directions:
         1. Create a DIV element to contain the page content
@@ -32,6 +29,64 @@
           - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
           - In your contact me section, make the text "Phone:" and "Email:" bolded
      -->
-</body>
+    <div class="main">
+      <div class="topBar">
+        <h1 class="name">Tiara Mendiola</h1>
+      </div>
+      <div class="intro">
+        <img
+          src="images/TiaraMendiola-Profile.jpg"
+          class="tiaram"
+          alt="Picture of Tiara M."
+        />
+        <h2 class="title">Software Developer</h2>
+        <p class="quote">
+          "My <em>favorite</em> thing about programming is that there is more
+          than one solution to a problem, it encourages me to learn and research
+          more often, and allows me to be as creative as possible."
+        </p>
+      </div>
+      <div class="aboutMe">
+        <h3 class="subtitle">About me</h3>
+        <p class="paragraph">
+          <img
+            src="https://placeimg.com/300/300/tech/grayscale"
+            class="imgTech"
+            style="float: right"
+            alt="A random image of a laptop or cell phone every time page is refreshed."
+          />
+          👋 Hi, my name is Tiara. I'm originally from Guam and have recently
+          moved to California (2022). I received my Bachelor's in Computer
+          Science at the University of Guam. 👩🏼‍🎓 3+ years experience working
+          within a small IT Team often wearing many hats in the Higher Education
+          Industry. 👩🏼‍💻 I am open to network or work and have recently became
+          interested in becoming a Software Engineer. 🧠 I've taken several Java
+          undergraduate course and I am currently learning CSS, HTML, and
+          JavaScript.✨
+        </p>
+      </div>
+      <div class="projects">
+        <h3 class="subtitle">My Projects</h3>
+        <ul class="projectList">
+          <li class="projectOptions">I'm new here 😫</li>
+          <li class="projectOptions">Stay tune 👀</li>
+          <li class="projectOptions">Work in progress!!💻</li>
+        </ul>
+      </div>
 
+      <div class="contact">
+        <h3 class="subtitle">Contact me</h3>
+        <p class="contactMe">
+          <strong>📘 LinkedIn: </strong>
+          <a
+            class="linkedIn"
+            target="_blank"
+            href="https://www.linkedin.com/in/tiaramendiola/"
+            >Tiara Mendiola</a
+          ><br />
+          <strong>💌 Email: tiaralvm@gmail.com</strong>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

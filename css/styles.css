@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Permanent+Marker&display=swap");
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html {
+  padding: 0vw;
+  margin: 0vw;
+  min-height: 100vh;
+}
+body {
+  background: url(coding-portfolio.jpeg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0vw;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2vw;
+  margin: 0;
+  min-height: 100vh;
+}
+.name {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-size: 5.3vw;
+  padding: 0vw;
+  margin: 0vw;
+}
+.title {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-size: 4vw;
+  padding: 0;
+  margin: 0vw 0.3vw 0.3vw 0.3vw;
+}
+.subtitle {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-size: 2.9vw;
+  margin: 0.3vw;
+}
+.quote {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  text-align: left;
+  text-shadow: 2vw 2vw 4vw black;
+  margin: 0.3vw 4vw 0.3vw 4vw;
+  font-size: 2vw;
+  padding: 1vw;
+}
+.paragraph {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  text-align: left;
+  text-shadow: 2vw 2vw 4vw black;
+  margin: 0.3vw 4vw 0.3vw 4vw;
+  font-size: 1.5vw;
+  padding: 2vw;
+}
+.topBar {
+  /*background-color: rgba(158, 164, 130, 0.85);*/
+  margin: 0vw 0vw 0vw 0vw;
+  max-width: 100%;
+  margin-top: 0;
+}
+.intro {
+  background: linear-gradient(
+    180deg,
+    rgba(221, 216, 188, 0.85),
+    rgba(158, 164, 130, 0.85),
+    rgba(76, 104, 94, 0.85),
+    rgba(31, 43, 49, 0.85)
+  );
+  border-radius: 2vw;
+  text-align: center;
+  margin: 0vw 18vw 1vw 18vw;
+  padding: 1vw;
+}
+.tiaram {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20vw;
+  width: 22vw;
+  padding: 1;
+}
+
+.aboutMe {
+  text-align: center;
+  margin: 0.3vw 18vw 1vw 18vw;
+  padding: 1vw;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 43, 49, 0.85),
+    rgba(76, 104, 94, 0.85),
+    rgba(158, 164, 130, 0.85),
+    rgba(221, 216, 188, 0.85)
+  );
+  border-radius: 2vw;
+}
+.imgTech {
+  border-radius: 2vw;
+  height: 100%;
+  width: 22vw;
+}
+
+.projects {
+  text-align: center;
+  margin: 0.3vw 18vw 1vw 18vw;
+  background: linear-gradient(
+    180deg,
+    rgba(221, 216, 188, 0.85),
+    rgba(158, 164, 130, 0.85),
+    rgba(76, 104, 94, 0.85)
+  );
+  border-radius: 2vw;
+  padding: 1vw;
+}
+.projectList {
+  text-align: center;
+  padding: 1px;
+}
+.projectOptions {
+  color: white;
+  display: block;
+  font-family: "Cutive Mono", monospace;
+  font-size: 2vw;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+  margin: 0.3vw 18vw 1vw 18vw;
+  background: linear-gradient(
+    180deg,
+    rgba(76, 104, 94, 0.85),
+    rgba(158, 164, 130, 0.85)
+  );
+  border-radius: 2vw;
+  padding: 1vw;
+}
+.contactMe {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  text-align: center;
+  text-shadow: 2vw 2vw 4vw black;
+  margin: 0.3vw 4vw 0.3vw 4vw;
+  font-size: 1.5vw;
+  padding: 2vw;
+}
+.linkedIn {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  text-decoration: none;
+}
+.linkedIn:hover {
+  color: rgb(120, 43, 45);
+  cursor: pointer;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.596);
+}
+.email {
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  text-decoration: none;
+}
